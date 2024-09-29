@@ -40,8 +40,8 @@ sgd_clf = SGDClassifier(max_iter =1000 , tol=1e-3)
 sgd_clf.fit(X_train , y_train)
 y_pred =  sgd_clf.predict(X_test) 
 accuracy= accuracy_score(y_test , y_pred)
-print(f"Accuracy: {accuracy:.3f}")
- print(confusion_matrix(y_test, y_pred)) 
+accuracy
+print(confusion_matrix(y_test, y_pred)) 
 ```
 
 ## Output:
